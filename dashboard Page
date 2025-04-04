@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>Dashboard</h2>
+  <p id="userEmail">Loading...</p>
+
+  <div class="dashboard-options">
+    <button id="showUsersBtn">View All Users</button>
+    <button id="changePasswordBtn">Change Password</button>
+    <button id="deleteAccountBtn">Delete My Account</button>
+    <button id="logoutBtn">Logout</button>
+  </div>
+
+  <ul id="userList"></ul>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
